@@ -15,7 +15,7 @@ public class MathUtil {
     // hàm tính giai thừa !!!
     public static long getFactorial(int n) {
 
-        if (n < 0 || n > 11) {
+        if (n < 0 || n > 1) {
             throw new IllegalArgumentException("Invalid arguments. N must be between 0...20");
         }
 
